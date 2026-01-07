@@ -152,10 +152,8 @@ header nav {
     height: 80%;
     width: 80%;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: auto;
+    margin-top: -10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
     img {
@@ -297,7 +295,7 @@ header nav {
 
     #menuList {
         position: absolute;
-        top: 90px;
+        top: 50px;
         left: 0;
         background-color: red;
         display: flex;
@@ -336,10 +334,10 @@ header nav {
     }
 }
 @media(max-width:450px){
-    .box-container{
+    /* .box-container{
         height: 80px;
         width: 80px;
-    }
+    } */
     .box-title{
         font-size: 6px;
         margin-bottom: 5px;
