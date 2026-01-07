@@ -334,12 +334,8 @@ header nav {
     }
 }
 @media(max-width:450px){
-    /* .box-container{
-        height: 80px;
-        width: 80px;
-    } */
     .box-title{
-        font-size: 6px;
+        font-size: 13px;
         margin-bottom: 5px;
         text-align: center;
     }
