@@ -198,7 +198,7 @@ header nav {
     display: flex;
     gap: 20px;
     width: max-content;
-    animation: scroll 45s linear infinite; /* duration slow + smooth */
+    animation: scroll 25s linear infinite; /* duration slow + smooth */
 }
 
 
@@ -342,5 +342,8 @@ header nav {
     .main-container h1{
         margin-top: 10px;
         font-size: 15px;
+    }
+    .slider-track{
+        animation: scroll 20s linear infinite;
     }
 }
